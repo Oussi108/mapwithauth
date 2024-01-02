@@ -1,0 +1,7 @@
+{
+  "name": "maplogin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
