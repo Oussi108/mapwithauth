@@ -1,0 +1,32 @@
+form {
+    margin-top: 30px;
+    h2 {
+      color: #333; /* Form title color */
+      margin-bottom: 20px;
+    }
+    div {
+      margin-bottom: 15px;
+      label {
+        color: #333; /* Label text color */
+        font-weight: bold;
+      }
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc; /* Input border color */
+        border-radius: 5px; /* Border radius */
+      }
+      button[type="submit"],
+      button[type="button"] {
+        background-color: #3498db; /* Button background color */
+        color: #fff; /* Button text color */
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px; /* Button border radius */
+        cursor: pointer;
+        margin-right: 10px; /* Margin between buttons */
+      }
+    }
+  }
+  

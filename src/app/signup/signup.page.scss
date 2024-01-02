@@ -1,0 +1,35 @@
+form {
+    margin-top: 30px;
+    h2 {
+      color: #333; /* Form title color */
+      margin-bottom: 20px;
+    }
+    div {
+      margin-bottom: 15px;
+      label {
+        color: #333; /* Label text color */
+        font-weight: bold;
+      }
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc; /* Input border color */
+        border-radius: 5px; /* Border radius */
+      }
+      input[type="submit"] {
+        background-color: #3498db; /* Submit button background color */
+        color: #fff; /* Submit button text color */
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px; /* Submit button border radius */
+        cursor: pointer;
+      }
+      p {
+        color: #e74c3c; /* Error text color */
+        font-size: 14px;
+        margin-top: 5px;
+      }
+    }
+  }
+  
